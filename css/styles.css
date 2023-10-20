@@ -1,0 +1,39 @@
+html, body{
+    margin: 0;
+    padding: 0;
+
+} 
+
+body{
+    background-color: black;
+    color: white;
+
+}
+
+.navigation{
+    background-color: black;
+    color: white;
+    height: 56px;
+}
+
+.navigation ul{
+    list-style: none;
+    margin-top: 0;
+    padding: 0;
+    height: 56px;
+    text-align: right;
+}
+
+.navigation li{
+    display: inline-block;
+    line-height: 56px;
+    padding-left: 30px;
+    padding-left: 30px;
+}
+
+.capa{
+    color:white;
+}
+.capa span{
+    color:green;
+}

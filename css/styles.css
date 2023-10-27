@@ -15,6 +15,14 @@ body{
     color: white;
     height: 56px;
 }
+.navigation a{
+    color: white;
+    text-decoration: none;
+}
+
+.navigation a:hover{
+    color: red;
+}
 
 .navigation ul{
     list-style: none;
@@ -67,6 +75,60 @@ body{
 .profile-title h2{
     margin-top: -26px;
 
+}
+.main{
+    padding: 40px 180px 80px 100px;
+    /*padding-top: 40px;
+    padding-right: 180px;
+    padding-bottom: 80px;
+    padding-left: 100px; */
+
+
+}
+
+.cv-pic {
+    float: left;
+    width: 250px;
+    
+}
+.main h1 {
+    color: white;
+    font-size: 32px;
+    font-weight: 16px;
+}
+
+.main h2{
+    color:white;
+    font-size: 16px;
+    text-transform: uppercase;
+
+}
+
+.main h3{
+    color: orange;
+    font-size: 12px;
+}
+
+.main p {
+    color: white;
+    font-size: 18px;
+    font-weight: 100;
+    line-height: 24px;
+    text-align: justify;
+
+}
+.caminho {
+    list-style: none;
+    color: grey;
+    padding-left: 0%;
+}
+
+.caminho li {
+    display: inline-block;
+}
+
+.caminho a{
+    color: grey;
 }
 
 

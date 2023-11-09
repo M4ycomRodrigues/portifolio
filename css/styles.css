@@ -178,6 +178,7 @@ body{
 
     .navigation li.threeline-icon{
         display: inline-block;
+        padding-right: 15px;
     }
 
     .capa div {
@@ -217,17 +218,17 @@ body{
     
 }
 .menujs ul{
-    background-color: chocolate;
     height: auto;
     text-align: center;
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-left: 15%;
+    padding-right: 15%;
 
 }
 .menujs li{
-    background-color: red;
     display: block;
     border-bottom: grey 1px;
+    width: 100%;
+    padding: 0;
 }
 }
 

@@ -114,16 +114,20 @@ body{
 }
 
 .cv-pic-port {
-    float: left;
+    float: center;
     width: 500px;
     margin-right: 20px;
     margin-bottom: 20px;
-    text-align: center;
     max-width: 100%;
     
 }
 .legenda{
     margin-top: 10px; 
+    text-align: center;
+}
+
+.contato{
+    padding: 30px;
 }
 .main h1 {
     color: white;

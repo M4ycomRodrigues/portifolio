@@ -14,9 +14,10 @@ body{
     background-color: black;
     color: white;
     height: 56px;
+    padding-right: 50px;
 
     animation: navegacao;
-    animation-duration: 4s;
+    animation-duration: 2s;
 }
 .navigation a{
     color: white;
@@ -52,7 +53,7 @@ body{
     color:white;
 }
 .capa span{
-    color: orange;
+    color: blue;
     display: block;
 }
 
@@ -95,7 +96,7 @@ body{
 
 }
 .main{
-    padding: 40px 180px 80px 100px;
+    padding: 40px 300px 80px 100px;
     /*padding-top: 40px;
     padding-right: 180px;
     padding-bottom: 80px;
@@ -110,6 +111,19 @@ body{
     margin-right: 20px;
     margin-bottom: 20px;
     
+}
+
+.cv-pic-port {
+    float: left;
+    width: 500px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    max-width: 100%;
+    
+}
+.legenda{
+    margin-top: 10px; 
 }
 .main h1 {
     color: white;
@@ -126,7 +140,7 @@ body{
 }
 
 .main h3{
-    color: orange;
+    color: blue;
     font-size: 12px;
 }
 
@@ -178,7 +192,7 @@ body{
 
     .navigation li.threeline-icon{
         display: inline-block;
-        padding-right: 15px;
+
     }
 
     .capa div {
@@ -212,23 +226,25 @@ body{
         margin-left: 20px;
         margin-right: 20px;
     }
+}
 
-.menujs {
+.menuJs {
     height: auto;
+    padding: center;
     
 }
-.menujs ul{
+.menuJs ul{
     height: auto;
     text-align: center;
     padding-left: 15%;
     padding-right: 15%;
 
 }
-.menujs li{
+.menuJs li{
     display: block;
-    border-bottom: grey 1px;
+    border-bottom: solid grey 1px;
     width: 100%;
     padding: 0;
 }
-}
+
 

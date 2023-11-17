@@ -126,11 +126,23 @@ body{
     text-align: center;
 }
 
+.legenda a{
+    text-decoration: none;
+    color: white;
+}
+.legenda a:hover{
+    color: red;
+}
+
 .contato{
     padding: 30px;
 }
+
+.contato h1{
+    color: blue;
+}
 .main h1 {
-    color: white;
+    color: blue;
     font-size: 32px;
     font-weight: 16px;
 }
